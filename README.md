@@ -1,4 +1,6 @@
 # SFUserFriendlySymbols
+![SFUserFriendlySymbols](https://user-images.githubusercontent.com/67716751/151206795-b2404e1f-e4b0-4680-99ea-1af643fc9a52.png)
+
 This is **USER-FRIENDLY** SF Symbols.
 
 You can use SF Symbols image without coding system names and if you select unavailable system image, you know it with the alert from Xcode.
