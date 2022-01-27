@@ -11,7 +11,7 @@
 import SwiftUI
 
 @available(iOS 13.0, macCatalyst 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
-extension SwiftUI.Image {
+public extension SwiftUI.Image {
     
     /// Creates a image with the given symbol.
     ///
