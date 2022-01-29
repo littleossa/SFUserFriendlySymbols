@@ -1,9 +1,14 @@
 # SFUserFriendlySymbols
 ![SFUserFriendlySymbols](https://user-images.githubusercontent.com/67716751/151206795-b2404e1f-e4b0-4680-99ea-1af643fc9a52.png)
 
+[![CI](https://github.com/littleossa/SFUserFriendlySymbols/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/littleossa/SFUserFriendlySymbols/actions/workflows/main.yml)
+
 This is **USER-FRIENDLY** SF Symbols.
 
 You can use SF Symbols image without coding system names and if you select unavailable system image, you know it with the alert from Xcode.
+
+## ♥️ Support SF Symbols version
+Supported SF Symbols 3.2 now.
 
 ## ⬇️ Installation
 ### Swift Package Manager(Recommended)
