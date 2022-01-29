@@ -22,7 +22,7 @@ You can also add this package to `Package.swift`, include it in your target depe
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/littleossa/SFUserFriendlySymbols", .upToNextMajor(from: "0.1.1")),
+        .package(url: "https://github.com/littleossa/SFUserFriendlySymbols", .upToNextMajor(from: "0.2.0")),
     ],
     targets: [
         .target(
