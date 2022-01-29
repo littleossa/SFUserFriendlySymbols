@@ -10,7 +10,7 @@ import SwiftUI
 
 final class SFUserFriendlySymbolsTests: XCTestCase {
     
-    /// test SF Symbols all cases exist or not
+    /// Test for that all cases of SF Symbols exist or not
     func testSFSymbolsAllCases() {
         for symbol in SFSymbols.allCases {
 #if os(iOS)
@@ -23,7 +23,7 @@ final class SFUserFriendlySymbolsTests: XCTestCase {
         }
     }
     
-    /// test each init functions succeed or not
+    /// Test for that each init functions succeed or not
     func testInitializeSFSymbolsImage() {
 #if os(iOS)
         let uiImage = UIImage(symbol: .carFill)
