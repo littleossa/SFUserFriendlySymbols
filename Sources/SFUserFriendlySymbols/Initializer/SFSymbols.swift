@@ -1,16 +1,16 @@
 //
 //  SFSymbols.swift
 //
+//  Created by littleossa
 //
-//  Created by littleossa on 2022/01/26.
-//
-//  Enjoy.
+//  enjoy!
 
 import Foundation
 
 public enum SFSymbols: String {
     
-    // MARK: - Available(iOS 13.0, macOS 11.0, macCatalyst 13.0, tvOS 13.0, watchOS 6.0)
+    // MARK: - @available(iOS 13.0, macOS 11.0, macCatalyst 13.0, tvOS 13.0, watchOS 6.0, *)
+    
     @available(iOS 13.0, macOS 11.0, macCatalyst 13.0, tvOS 13.0, watchOS 6.0, *)
     case squareAndArrowUp = "square.and.arrow.up"
     @available(iOS 13.0, macOS 11.0, macCatalyst 13.0, tvOS 13.0, watchOS 6.0, *)
@@ -3060,7 +3060,9 @@ public enum SFSymbols: String {
     @available(iOS 13.0, macOS 11.0, macCatalyst 13.0, tvOS 13.0, watchOS 6.0, *)
     case _50SquareFill = "50.square.fill"
     
-    // MARK: - Available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0)
+    
+    // MARK: - @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleAndPencilAndEllipsis = "rectangle.and.pencil.and.ellipsis"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
@@ -3290,11 +3292,11 @@ public enum SFSymbols: String {
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case ticketFill = "ticket.fill"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case paperclipBadgeEllipsis = "paperclip.badge.ellipsis"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case paperclipCircle = "paperclip.circle"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case paperclipCircleFill = "paperclip.circle.fill"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case paperclipBadgeEllipsis = "paperclip.badge.ellipsis"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleDashedAndPaperclip = "rectangle.dashed.and.paperclip"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
@@ -3406,13 +3408,13 @@ public enum SFSymbols: String {
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3X1BelowLineGrid1X2 = "square.grid.3x1.below.line.grid.1x2"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case circleGrid2X2 = "circle.grid.2x2"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case circleGrid2X2Fill = "circle.grid.2x2.fill"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3X3 = "square.grid.3x3"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3X3Fill = "square.grid.3x3.fill"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case circleGrid2X2 = "circle.grid.2x2"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case circleGrid2X2Fill = "circle.grid.2x2.fill"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case circleGridCross = "circle.grid.cross"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
@@ -3670,10 +3672,6 @@ public enum SFSymbols: String {
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case keyIcloudFill = "key.icloud.fill"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case flashlightOffFill = "flashlight.off.fill"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case flashlightOnFill = "flashlight.on.fill"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case cameraBadgeEllipsis = "camera.badge.ellipsis"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case cameraFillBadgeEllipsis = "camera.fill.badge.ellipsis"
@@ -3747,8 +3745,6 @@ public enum SFSymbols: String {
     case line3CrossedSwirlCircle = "line.3.crossed.swirl.circle"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case line3CrossedSwirlCircleFill = "line.3.crossed.swirl.circle.fill"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case scissorsBadgeEllipsis = "scissors.badge.ellipsis"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case ellipsisRectangle = "ellipsis.rectangle"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
@@ -3927,14 +3923,6 @@ public enum SFSymbols: String {
     case key = "key"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case keyFill = "key.fill"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case pinCircle = "pin.circle"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case pinCircleFill = "pin.circle.fill"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case mappinCircle = "mappin.circle"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case mappinCircleFill = "mappin.circle.fill"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case move3D = "move.3d"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
@@ -4143,8 +4131,6 @@ public enum SFSymbols: String {
     case airplaneCircle = "airplane.circle"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case airplaneCircleFill = "airplane.circle.fill"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case car = "car"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case carCircle = "car.circle"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
@@ -4574,8 +4560,6 @@ public enum SFSymbols: String {
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case appclip = "appclip"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case studentdesk = "studentdesk"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case hourglassBadgePlus = "hourglass.badge.plus"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case banknote = "banknote"
@@ -4583,10 +4567,6 @@ public enum SFSymbols: String {
     case banknoteFill = "banknote.fill"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case paragraphsign = "paragraphsign"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case aspectratio = "aspectratio"
-    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
-    case aspectratioFill = "aspectratio.fill"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case cameraFilters = "camera.filters"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
@@ -4876,9 +4856,33 @@ public enum SFSymbols: String {
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case shekelsignSquareFill = "shekelsign.square.fill"
     @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case flashlightOffFill = "flashlight.off.fill"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case flashlightOnFill = "flashlight.on.fill"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case scissorsBadgeEllipsis = "scissors.badge.ellipsis"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case pinCircle = "pin.circle"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case pinCircleFill = "pin.circle.fill"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case mappinCircle = "mappin.circle"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case mappinCircleFill = "mappin.circle.fill"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case car = "car"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case studentdesk = "studentdesk"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case aspectratio = "aspectratio"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+    case aspectratioFill = "aspectratio.fill"
+    @available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
     case applelogo = "applelogo"
     
-    // MARK: - Available(iOS 14.2, macOS 11.0, macCatalyst 14.2, tvOS 14.2, watchOS 7.1)
+    
+    // MARK: - @available(iOS 14.2, macOS 11.0, macCatalyst 14.2, tvOS 14.2, watchOS 7.1, *)
+    
     @available(iOS 14.2, macOS 11.0, macCatalyst 14.2, tvOS 14.2, watchOS 7.1, *)
     case characterBookClosed = "character.book.closed"
     @available(iOS 14.2, macOS 11.0, macCatalyst 14.2, tvOS 14.2, watchOS 7.1, *)
@@ -4964,7 +4968,9 @@ public enum SFSymbols: String {
     @available(iOS 14.2, macOS 11.0, macCatalyst 14.2, tvOS 14.2, watchOS 7.1, *)
     case brazilianrealsignSquareFill = "brazilianrealsign.square.fill"
     
-    // MARK: - Available(iOS 14.5, macOS 11.3, macCatalyst 14.5, tvOS 14.5, watchOS 7.4)
+    
+    // MARK: - @available(iOS 14.5, macOS 11.3, macCatalyst 14.5, tvOS 14.5, watchOS 7.4, *)
+    
     @available(iOS 14.5, macOS 11.3, macCatalyst 14.5, tvOS 14.5, watchOS 7.4, *)
     case characterBubble = "character.bubble"
     @available(iOS 14.5, macOS 11.3, macCatalyst 14.5, tvOS 14.5, watchOS 7.4, *)
@@ -4994,7 +5000,9 @@ public enum SFSymbols: String {
     @available(iOS 14.5, macOS 11.3, macCatalyst 14.5, tvOS 14.5, watchOS 7.4, *)
     case characterTextbox = "character.textbox"
     
-    // MARK: - Available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0)
+    
+    // MARK: - @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+    
     @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
     case squareAndArrowUpCircle = "square.and.arrow.up.circle"
     @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
@@ -6582,7 +6590,9 @@ public enum SFSymbols: String {
     @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
     case asterisk = "asterisk"
     
-    // MARK: - Available(iOS 15.1, macOS 12.0, macCatalyst 15.1, tvOS 15.1, watchOS 8.1)
+    
+    // MARK: - @available(iOS 15.1, macOS 12.0, macCatalyst 15.1, tvOS 15.1, watchOS 8.1, *)
+    
     @available(iOS 15.1, macOS 12.0, macCatalyst 15.1, tvOS 15.1, watchOS 8.1, *)
     case boltRingClosed = "bolt.ring.closed"
     @available(iOS 15.1, macOS 12.0, macCatalyst 15.1, tvOS 15.1, watchOS 8.1, *)
@@ -6610,7 +6620,9 @@ public enum SFSymbols: String {
     @available(iOS 15.1, macOS 12.0, macCatalyst 15.1, tvOS 15.1, watchOS 8.1, *)
     case textJustifyTrailing = "text.justify.trailing"
     
-    // MARK: - Available(iOS 15.2, macOS 12.1, macCatalyst 15.2, tvOS 15.2, watchOS 8.3)
+    
+    // MARK: - @available(iOS 15.2, macOS 12.1, macCatalyst 15.2, tvOS 15.2, watchOS 8.3, *)
+    
     @available(iOS 15.2, macOS 12.1, macCatalyst 15.2, tvOS 15.2, watchOS 8.3, *)
     case rectangleLeadinghalfFilled = "rectangle.leadinghalf.filled"
     @available(iOS 15.2, macOS 12.1, macCatalyst 15.2, tvOS 15.2, watchOS 8.3, *)
@@ -6641,5 +6653,5 @@ public enum SFSymbols: String {
     case square3Layers3DDownLeftSlash = "square.3.layers.3d.down.left.slash"
     @available(iOS 15.2, macOS 12.1, macCatalyst 15.2, tvOS 15.2, watchOS 8.3, *)
     case square3Stack3DSlash = "square.3.stack.3d.slash"
+    
 }
-
