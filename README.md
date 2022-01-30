@@ -124,3 +124,10 @@ Feel free to contribute from SF Symbols lovers.
 
 ## License
 This library is released under the [MIT License](https://github.com/littleossa/SFUserFriendlySymbols/blob/main/LICENSE).
+
+## Reference
+I blogged about SFUserFriendlySymbols in Japanse.the link is below.
+
+- [ユーザーに優しいSF Symbolsライブラリをリリースしました](https://dev.classmethod.jp/articles/sf-userfriendly-symbols/)
+
+
