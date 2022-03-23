@@ -23,6 +23,22 @@ final class SFUserFriendlySymbolsTests: XCTestCase {
         }
     }
     
+    /// Test for that all symbols of SF Symbols' Category exist or not
+    func testSFSymbolsCategory() {
+        for category in SFSymbols.Category.allCases {
+            
+            for symbol in category.symbols {
+#if os(iOS)
+                let image = UIImage(symbol: symbol)
+                XCTAssertNotNil(image, "This symbos is not available: \(symbol)")
+#elseif os(macOS)
+                let image = NSImage(symbol: symbol)
+                XCTAssertNotNil(image, "This symbos is not available: \(symbol)")
+#endif
+            }
+        }
+    }
+    
     /// Test for that each init functions succeed or not
     func testInitializeSFSymbolsImage() {
 #if os(iOS)
