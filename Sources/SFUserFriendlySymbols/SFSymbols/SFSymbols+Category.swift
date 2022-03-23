@@ -9,6 +9,7 @@ import Foundation
 
 extension SFSymbols {
     
+    /// The Category of SF Symbols
     enum Category: String, CaseIterable {
         case new = "What's new"
         case multicolor = "Multicolor"
@@ -33,6 +34,7 @@ extension SFSymbols {
         case indices = "Indices"
         case math = "Math"
         
+        /// A SF Symbols' collection of the specified category type
         var symbols: [SFSymbols] {
             switch self {
             case .new:
