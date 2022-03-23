@@ -70,6 +70,28 @@ let image = UIImage(symbol: ._1Circle)
 Image(symbol: .faceSmiling)
 ```
 
+### ◆ All Symbols
+
+if you want to use all Symbols
+
+```swift
+SFSymbols.allCases
+```
+
+it returns all symbols which can use on your target os version.
+
+### ◆ Categorized Symbols
+
+For example, when you use symbols categorized as Weather
+
+```swift
+let weatherSymbols = SFSymbols.Category.weather
+```
+
+There are 22 categories as with that you can see on SF Symbols App.
+
+they return symbols which can use on your target os version.
+
 ## ❓ Why UserFriendly?
 
 Why this name of SF Symbols library includes **UserFriendly**?
