@@ -10,7 +10,7 @@ import Foundation
 extension SFSymbols {
     
     /// The Category of SF Symbols
-    enum Category: String, CaseIterable {
+    public enum Category: String, CaseIterable {
         case new = "What's new"
         case multicolor = "Multicolor"
         case communication = "Communication"
