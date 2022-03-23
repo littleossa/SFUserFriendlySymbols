@@ -35,7 +35,7 @@ extension SFSymbols {
         case math = "Math"
         
         /// A SF Symbols' collection of the specified category type
-        var symbols: [SFSymbols] {
+        public var symbols: [SFSymbols] {
             switch self {
             case .new:
                 return SFSymbols.whatsNewSymbols
