@@ -11,6 +11,7 @@ extension SFSymbols {
     
     /// The Category of SF Symbols
     public enum Category: String, CaseIterable {
+        case all = "All"
         case new = "What's new"
         case multicolor = "Multicolor"
         case communication = "Communication"
@@ -37,6 +38,8 @@ extension SFSymbols {
         /// A SF Symbols' collection of the specified category type
         public var symbols: [SFSymbols] {
             switch self {
+            case .all:
+                return SFSymbols.allCases
             case .new:
                 return SFSymbols.whatsNewSymbols
             case .multicolor:
