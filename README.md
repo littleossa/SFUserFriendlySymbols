@@ -70,17 +70,24 @@ let image = UIImage(symbol: ._1Circle)
 Image(symbol: .faceSmiling)
 ```
 
-### ◆ All Symbols
+### ◆ Categorized Symbols
 
-if you want to use all Symbols
+There are 23 categories as with that you can see on SF Symbols App.
+they return symbols which can use on your target os version.
+
+#### All Symbols
 
 ```swift
 SFSymbols.allCases
 ```
 
-it returns all symbols which can use on your target os version.
+or
 
-### ◆ Categorized Symbols
+```swift
+SFSymbols.Category.all.symbols
+```
+
+#### Other categories
 
 For example, when you use symbols categorized as Weather
 
@@ -88,9 +95,11 @@ For example, when you use symbols categorized as Weather
 let weatherSymbols = SFSymbols.Category.weather
 ```
 
-There are 22 categories as with that you can see on SF Symbols App.
+or
 
-they return symbols which can use on your target os version.
+```swift
+let weatherSymbols = SFSymbols.weatherSymbols
+```
 
 ## ❓ Why UserFriendly?
 
