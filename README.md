@@ -8,7 +8,7 @@ This is **USER-FRIENDLY** SF Symbols.
 You can use SF Symbols image without coding system names and if you select unavailable system image, you know it with the alert from Xcode.
 
 ## ♥️ Support SF Symbols version
-Supported SF Symbols 3.2 now.
+Supported SF Symbols 3.3 now.
 
 ## ⬇️ Installation
 ### Swift Package Manager(Recommended)
