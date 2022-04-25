@@ -34,6 +34,9 @@ extension SFSymbols: CaseIterable {
         if #available(iOS 15.2, macOS 12.1, macCatalyst 15.2, tvOS 15.2, watchOS 8.3, *) {
             allCases += SFSymbols.availableCasesFromSFSymbols3_2
         }
+        if #available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *) {
+            allCases += SFSymbols.availableCasesFromSFSymbols3_3
+        }
         
         return allCases
     }
@@ -80,4 +83,9 @@ extension SFSymbols: CaseIterable {
         [.rectangleLeadinghalfFilled, .rectangleTrailinghalfFilled, .airpodsGen3, .airpodGen3Right, .airpodGen3Left, .airpodsGen3ChargingcaseWireless, .airpodsGen3ChargingcaseWirelessFill, .beatsFitPro, .beatsFitProLeft, .beatsFitProRight, .beatsFitProChargingcase, .beatsFitProChargingcaseFill, .square3Layers3DDownRightSlash, .square3Layers3DDownLeftSlash, .square3Stack3DSlash]
     }
     
+    /// A collection of available values added from  SF Symbols 3.3
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    private static var availableCasesFromSFSymbols3_3: [SFSymbols] {
+        [.personBadgeKey, .personBadgeKeyFill, .dotsAndLineVerticalAndCursorarrowRectangle, .cameraMacro, .cameraMacroCircle, .cameraMacroCircleFill, .keyViewfinder]
+    }
 }

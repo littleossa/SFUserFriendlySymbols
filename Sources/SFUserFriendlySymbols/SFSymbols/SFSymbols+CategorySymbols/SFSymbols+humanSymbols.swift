@@ -24,6 +24,9 @@ extension SFSymbols {
         if #available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *) {
             humanSymbols += SFSymbols.availableHumanSymbolsFromSFSymbols3
         }
+        if #available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *) {
+            humanSymbols += SFSymbols.availableHumanSymbolsFromSFSymbols3_3
+        }
         
         return humanSymbols
     }
@@ -46,5 +49,10 @@ extension SFSymbols {
     @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
     private static var availableHumanSymbolsFromSFSymbols3: [SFSymbols] {
         [.personBadgeClock, .personBadgeClockFill, .shareplay, .shareplaySlash, .rectangleInsetFilledAndPersonFilled, .personWave2, .personWave2Fill, .person2Wave2, .person2Wave2Fill, .person3Sequence, .person3SequenceFill, .personCropCircleBadgeQuestionmarkFill, .personCropCircleBadgeExclamationmarkFill, .personCropCircleBadgeMoon, .personCropCircleBadgeMoonFill, .personCropCircleBadgeClock, .personCropCircleBadgeClockFill, .personCropCircleBadge, .personCropCircleBadgeFill, .personCropArtframe, .personCropRectangleStack, .personCropRectangleStackFill, .person2CropSquareStack, .person2CropSquareStackFill, .personCropSquareFilledAndAtRectangle, .personCropSquareFilledAndAtRectangleFill, .personTextRectangle, .personTextRectangleFill, .eyeSquare, .eyeSquareFill, .eyeSlashCircle, .eyeSlashCircleFill, .eyeTrianglebadgeExclamationmark, .eyeTrianglebadgeExclamationmarkFill, .tshirt, .tshirtFill, .brainHeadProfile, .brain, .rectangleStackBadgePersonCropFill, .figureRoll, .earAndWaveform, .hearingdeviceEar, .handRaisedCircle, .handRaisedCircleFill, .handRaisedSquare, .handRaisedSquareFill, .handThumbsupCircle, .handThumbsupCircleFill, .handThumbsdownCircle, .handThumbsdownCircleFill, .rectangleAndHandPointUpLeft, .rectangleAndHandPointUpLeftFill, .rectangleFilledAndHandPointUpLeft, .rectangleAndHandPointUpLeftFilled]
+    }
+    
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    private static var availableHumanSymbolsFromSFSymbols3_3: [SFSymbols] {
+        [.personBadgeKey, .personBadgeKeyFill]
     }
 }

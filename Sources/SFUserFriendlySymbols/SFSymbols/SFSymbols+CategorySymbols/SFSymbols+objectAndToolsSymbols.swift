@@ -27,6 +27,9 @@ extension SFSymbols {
         if #available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *) {
             objectAndToolsSymbols += SFSymbols.availableObjectAndToolsSymbolsFromSFSymbols3
         }
+        if #available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *) {
+            objectAndToolsSymbols += SFSymbols.availableObjectAndToolsSymbolsFromSFSymbols3_3
+        }
         
         return objectAndToolsSymbols
     }
@@ -54,5 +57,10 @@ extension SFSymbols {
     @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
     private static var availableObjectAndToolsSymbolsFromSFSymbols3: [SFSymbols] {
         [.lassoAndSparkles, .trashSquare, .trashSquareFill, .trashSlashCircle, .trashSlashCircleFill, .trashSlashSquare, .trashSlashSquareFill, .folderBadgeGearshape, .folderFillBadgeGearshape, .plusRectangleOnFolderFill, .booksVerticalCircle, .booksVerticalCircleFill, .bookClosedCircle, .bookClosedCircleFill, .menucard, .menucardFill, .magazine, .magazineFill, .newspaperCircle, .newspaperCircleFill, .bookmarkSquare, .bookmarkSquareFill, .graduationcapCircle, .graduationcapCircleFill, .personalhotspotCircle, .personalhotspotCircleFill, .speakerCircle, .speakerCircleFill, .speakerBadgeExclamationmark, .speakerBadgeExclamationmarkFill, .musicMicCircle, .musicMicCircleFill, .sparkleMagnifyingglass, .locationMagnifyingglass, .flagSquare, .flagSquareFill, .flag2Crossed, .flag2CrossedFill, .flagFilledAndFlagCrossed, .flagAndFlagFilledCrossed, .sensorTagRadiowavesForward, .sensorTagRadiowavesForwardFill, .bellSquare, .bellSquareFill, .bellAndWaveform, .bellAndWaveformFill, .bellBadgeCircle, .bellBadgeCircleFill, .tagSquare, .tagSquareFill, .boltShield, .boltShieldFill, .facemask, .facemaskFill, .cameraShutterButton, .cameraShutterButtonFill, .scissorsCircle, .scissorsCircleFill, .dice, .diceFill, .hammerCircle, .hammerCircleFill, .screwdriver, .screwdriverFill, .stethoscopeCircle, .stethoscopeCircleFill, .printerFilledAndPaper, .printerDotmatrixFilledAndPaper, .briefcaseCircle, .briefcaseCircleFill, .suitcase, .suitcaseFill, .suitcaseCart, .suitcaseCartFill, .theatermasks, .theatermasksFill, .theatermasksCircle, .theatermasksCircleFill, .puzzlepieceExtension, .puzzlepieceExtensionFill, .pinSquare, .pinSquareFill, .mappinSquare, .mappinSquareFill, .mapCircle, .mapCircleFill, .powerplug, .powerplugFill, .cpuFill, .memorychipFill, .beatsHeadphones, .antennaRadiowavesLeftAndRightSlash, .antennaRadiowavesLeftAndRightCircle, .antennaRadiowavesLeftAndRightCircleFill, .fuelpump, .fuelpumpFill, .fuelpumpCircle, .fuelpumpCircleFill, .fanblades, .fanbladesFill, .bedDoubleCircle, .bedDoubleCircleFill, .testtube2, .ivfluidBag, .ivfluidBagFill, .crossVial, .crossVialFill, .filmCircle, .filmCircleFill, .shieldLefthalfFilled, .shieldRighthalfFilled, .shieldLefthalfFilledSlash, .checkerboardShield, .shippingboxCircle, .shippingboxCircleFill, .clockCircle, .clockCircleFill, .clockBadgeCheckmark, .clockBadgeCheckmarkFill, .clockBadgeExclamationmark, .clockBadgeExclamationmarkFill, .chartXyaxisLine, .cupAndSaucer, .cupAndSaucerFill, .takeoutbagAndCupAndStraw, .takeoutbagAndCupAndStrawFill, .forkKnife, .forkKnifeCircle, .forkKnifeCircleFill, .hourglassCircle, .hourglassCircleFill, .hourglassBottomhalfFilled, .hourglassTophalfFilled, .battery75, .battery50, .boltBatteryblock, .boltBatteryblockFill, .lightbulbCircle, .lightbulbCircleFill]
+    }
+    
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    private static var availableObjectAndToolsSymbolsFromSFSymbols3_3: [SFSymbols] {
+        [.keyViewfinder]
     }
 }

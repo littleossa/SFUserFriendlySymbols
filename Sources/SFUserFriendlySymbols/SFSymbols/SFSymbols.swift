@@ -6654,4 +6654,20 @@ public enum SFSymbols: String {
     @available(iOS 15.2, macOS 12.1, macCatalyst 15.2, tvOS 15.2, watchOS 8.3, *)
     case square3Stack3DSlash = "square.3.stack.3d.slash"
     
+    // MARK: - @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    case personBadgeKey = "person.badge.key"
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    case personBadgeKeyFill = "person.badge.key.fill"
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    case dotsAndLineVerticalAndCursorarrowRectangle = "dots.and.line.vertical.and.cursorarrow.rectangle"
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    case cameraMacro = "camera.macro"
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    case cameraMacroCircle = "camera.macro.circle"
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    case cameraMacroCircleFill = "camera.macro.circle.fill"
+    @available(iOS 15.4, macOS 12.3, macCatalyst 15.4, tvOS 15.4, watchOS 8.5, *)
+    case keyViewfinder = "key.viewfinder"
 }
